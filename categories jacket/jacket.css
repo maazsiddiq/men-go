@@ -1,0 +1,53 @@
+.active{
+    color: black !important;
+    
+}
+.active:hover{
+    color: rgba(0,0,0,0.5)!important;
+}
+.drop{
+    color: black !important;
+}
+.drop:hover{
+    color: rgba(0,0,0,0.5)!important;
+}
+.drop1:hover{
+    background: rgba(0,0,0,0.2)!important;
+
+}
+#logo{
+    height: 5rem; width: 15rem;
+}
+.carousel{
+    width: 100%; height: 100vh;
+}
+.cartimg{
+    height: 55vh; 
+}
+.cartimg:hover{
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
+        -webkit-transition: all 1s ease;
+}     
+.cart img:hover{
+filter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
+.cartimg .shadow img {
+    transition: .5s ease;
+}
+.cartimg:hover{
+box-shadow:
+1px 1px #373737,
+2px 2px #373737,
+3px 3px #373737,
+4px 4px #373737,
+5px 5px #373737,
+6px 6px #373737;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
+}

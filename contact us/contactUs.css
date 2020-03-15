@@ -1,0 +1,38 @@
+body{}
+
+.active{
+    color: black !important;
+    
+}
+.active:hover{
+    color: rgba(0,0,0,0.5)!important;
+}
+.drop{
+    color: black !important;
+}
+.drop:hover{
+    color: rgba(0,0,0,0.5)!important;
+}
+.drop1:hover{
+    background: rgba(0,0,0,0.2)!important;
+
+}
+#logo{
+    height: 5rem; width: 15rem;
+}
+.bgimg{
+    width: 100%;
+    height: 100%;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./contactUs image/bd cont-Us.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.formcolor{
+    color: white !important;
+}
+.control{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
